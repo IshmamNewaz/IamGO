@@ -1,11 +1,12 @@
-package morescopes
+package main
 
 import (
 	"fmt"
-	"funcLibrary"
+
+	funclibrary "example.com/funcLibrary" // Importing the funcLibrary package
 )
 
 func main() {
-	result := funcLibrary.Add(10, 5) // Using the Add function from the funcLibrary package
+	result := funclibrary.Add(10, 7) // Using the Add function from the funcLibrary package
 	fmt.Println("The result is:", result)
 }
